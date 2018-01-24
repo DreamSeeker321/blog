@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft Yahei";
+	color: #333;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	position: fixed;
+	top:0;
+	left: 0;
+	right: 0;
+	height:70px;
+	background-color: #fff;
+	box-shadow: 2px 5px 2px #fff;
+	z-index: 2;
+}
+.header .headerWrap{
+	width: 1000px;
+	margin:0 auto;
+	overflow: hidden;
+	margin-top: 25px;
+}
+.headerWrap .left{
+	float: left;
+	padding-left:35px;
+	background-image: url(../images/icon_logo.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	color:#333333;
+	font-size: 18px;
+	font-style: italic;
+}
+.headerWrap .left .searchInput{
+	padding:5px;
+	margin-left: 10px;
+	border:1px solid #cccccc;
+	padding-right:20px;
+	width: 60%;
+	min-width: 200px;
+	background-image: url(../images/icon_search.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	line-height: 20px;
+	outline: none;
+}
+.headerWrap .left .searchInput:focus{
+	border:1px solid #0099cc;
+}
+.headerWrap .right{
+	float: right;
+}
+.headerWrap .right .homePage{
+	padding-left:25px;
+	font-size: 14px;
+	background-image: url(../images/icon_homePage.png);
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+.headerWrap .right .userName{
+	margin-left: 30px;
+	padding-left:25px;
+	font-size: 14px;
+	background-image: url(../images/icon_userAvatar.png);
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+.headerWrap .addNew{
+	float: right;
+	margin-left: 50px;
+}
+.main{
+	padding-top: 95px;
+	width: 1000px;
+	background-color: #dbdbdb;
+	margin: 0 auto;
+}
+.menuBar{
+	width:150px;
+	background-color: #99c1dd;
+	color:#fff;
+}
+.menuBar ul.mainMenu{
+	font-size: 14px;
+	font-weight: bold;
+	box-sizing: border-box;
+	padding-left:20px;
+}
+.menuBar ul.mainMenu li{
+	line-height:36px;
+}
+.menuBar ul.mainMenu li.active{
+	background-color: #99cdec;
+	color: #fff;
+}
+.menuBar .border{
+	width: 100%;
+	height: 1px;
+	background-color:#99cdec;
+}
+
+.myDepart{
+	line-height:48px;
+	background-image: url(../images/search_white.png);
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+.allDepart{
+
+}
+.allDepart .name{
+	line-height:26px;
+}
